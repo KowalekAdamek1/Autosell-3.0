@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_na_gencasha",
+  "version": "${version}",
+  "name": "Mod na Gencasha",
+  "description": "Mod na Gencasha (3x3-10x10 AFK), AutoFood, Swing Animations, 3D Fill Ore/Player ESP, 2D Player ESP, Crosshair Tracers & Sharp GUI.",
+  "authors": ["pl.autosell"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.autosell.AutoSellMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*"
+  }
+}
